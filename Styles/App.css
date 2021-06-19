@@ -6,6 +6,7 @@ html {
 
 body{
     background-color:#27264B ;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .container{
@@ -37,34 +38,34 @@ body{
     width: 84%;
     height: 80%;
     background-color: #D8D9E2 ;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .prod2{
     width: 84%;
     height: 80%;
     background-color: #D8D9E2 ;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .prod3{
     width: 84%;
     height: 80%;
     background-color: #D8D9E2 ;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .prod4{
     width: 84%;
     height: 80%;
     background-color: #D8D9E2 ;
-    border-radius: 10px;
+    border-radius: 5px ;
 }
 
 .free {
     margin: 10 auto;
     background-image: linear-gradient(to right , #FFBCCD , #FFCB70 ) ;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
     border: 0px solid red;
     max-width: 90%;
@@ -80,7 +81,7 @@ body{
 .lite {
     margin: 10 auto;
     background-image: linear-gradient(to right , #C3D1FF , #B473FE ) ;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
     border: 0px solid red;
     max-width: 90%;
@@ -96,7 +97,7 @@ body{
 .pro {
     margin: 10 auto;
     background-image: linear-gradient(to right , #B473FE , #C3D1FF ) ;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
     border: 0px solid red;
     max-width: 90%;
@@ -112,7 +113,7 @@ body{
 .enter {
     margin: 10 auto;
     background-image: linear-gradient(to right , #FFCB70 , #FFBCCD ) ;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
     border: 0px solid red;
     max-width: 90%;
@@ -123,4 +124,53 @@ body{
     margin: 0;
     padding: 20px 0;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.span-price {
+    font-size: 50px;
+}
+
+.month{
+    font-size: 20px;
+}
+
+.price{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.description {
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.full-decs{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 80%;
+}
+
+.btn{
+    display: flex;
+}
+
+button{
+    padding: 20px 80px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 50px !important;
+}
+
+button:nth-child(2),button:nth-child(2){
+    background-color: blue;
+
 }
