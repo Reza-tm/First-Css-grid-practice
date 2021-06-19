@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+
 html {
     box-sizing: border-box;
 }
@@ -34,27 +36,91 @@ body{
 .prod1{
     width: 84%;
     height: 80%;
-    background-color: #C4C5D1 ;
+    background-color: #D8D9E2 ;
     border-radius: 10px;
 }
 
 .prod2{
     width: 84%;
     height: 80%;
-    background-color: #C4C5D1 ;
+    background-color: #D8D9E2 ;
     border-radius: 10px;
 }
 
 .prod3{
     width: 84%;
     height: 80%;
-    background-color: #C4C5D1 ;
+    background-color: #D8D9E2 ;
     border-radius: 10px;
 }
 
 .prod4{
     width: 84%;
     height: 80%;
-    background-color: #C4C5D1 ;
+    background-color: #D8D9E2 ;
     border-radius: 10px;
+}
+
+.free {
+    margin: 10 auto;
+    background-image: linear-gradient(to right , #FFBCCD , #FFCB70 ) ;
+    border-radius: 10px;
+    text-align: center;
+    border: 0px solid red;
+    max-width: 90%;
+    font-family: 'Nunito' !important;
+}
+
+.free p {
+    margin: 0;
+    padding: 20px 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.lite {
+    margin: 10 auto;
+    background-image: linear-gradient(to right , #C3D1FF , #B473FE ) ;
+    border-radius: 10px;
+    text-align: center;
+    border: 0px solid red;
+    max-width: 90%;
+    font-family: 'Nunito' !important;
+}
+
+.lite p {
+    margin: 0;
+    padding: 20px 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.pro {
+    margin: 10 auto;
+    background-image: linear-gradient(to right , #B473FE , #C3D1FF ) ;
+    border-radius: 10px;
+    text-align: center;
+    border: 0px solid red;
+    max-width: 90%;
+    font-family: 'Nunito' !important;
+}
+
+.pro p {
+    margin: 0;
+    padding: 20px 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.enter {
+    margin: 10 auto;
+    background-image: linear-gradient(to right , #FFCB70 , #FFBCCD ) ;
+    border-radius: 10px;
+    text-align: center;
+    border: 0px solid red;
+    max-width: 90%;
+    font-family: 'Nunito' !important;
+}
+
+.enter p {
+    margin: 0;
+    padding: 20px 0;
+    font-family: 'Josefin Sans', sans-serif;
 }
