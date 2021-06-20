@@ -2,6 +2,7 @@
 
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -26,6 +27,7 @@ body{
     background-color: #F8FAFE;
     border-radius: 10px;
     box-shadow: 0 0 20px 3px #4A4969;
+    overflow-y: scroll;
 }
 
 .prod{
@@ -35,31 +37,40 @@ body{
 }
 
 .prod1{
+    position: relative;
     width: 84%;
     height: 80%;
     background-color: #D8D9E2 ;
     border-radius: 5px;
+    overflow-y: scroll;
+    overflow-x: scroll;
 }
 
 .prod2{
+    position: relative;
     width: 84%;
     height: 80%;
     background-color: #D8D9E2 ;
     border-radius: 5px;
+    overflow-y: scroll;
 }
 
 .prod3{
+    position: relative;
     width: 84%;
     height: 80%;
     background-color: #D8D9E2 ;
     border-radius: 5px;
+    overflow-y: scroll;
 }
 
 .prod4{
+    position: relative;
     width: 84%;
     height: 80%;
     background-color: #D8D9E2 ;
     border-radius: 5px ;
+    overflow-y: scroll;
 }
 
 .free {
@@ -85,7 +96,8 @@ body{
     text-align: center;
     border: 0px solid red;
     max-width: 90%;
-    font-family: 'Nunito' !important;
+    font-family: 'Nunito' !important;   
+    overflow-y: scroll;
 }
 
 .lite p {
@@ -139,12 +151,13 @@ h1{
 }
 
 .price{
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 0px;
 }
 
 .description {
     margin: 0;
+    margin-top: 10px;
     text-align: center;
     font-weight: 700;
 }
@@ -159,18 +172,37 @@ h1{
     max-width: 80%;
 }
 
-.btn{
+a{
+    text-decoration: none;   
+    font-weight: 700;
+    color: #27264B;
+    width: 80%;
+    padding: 20px 0;
+    /* border: 2px solid #A9A9B8; */
+    text-align: center;
+    background-color: #FFFFFF;
+    align-self: center;
+    justify-self: center;
+    margin-top: 300px;
+    border-radius: 5px;
+}
+
+.bttn{
     display: flex;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
 }
 
-button{
-    padding: 20px 80px;
-    border: none;
-    margin: 0 auto;
-    margin-top: 50px !important;
+.blue-btn{
+    background-color: #27264B;
+    color: #FFFFFF;
 }
 
-button:nth-child(2),button:nth-child(2){
-    background-color: blue;
-
+.white-btn{
+    background-color: #FFFFFF;
+    color: #27264B;
+    /* box-shadow: inset 0px 0px 10px rgba(53, 53, 53, 0.356); */
 }
