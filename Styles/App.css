@@ -206,3 +206,32 @@ a{
     color: #27264B;
     /* box-shadow: inset 0px 0px 10px rgba(53, 53, 53, 0.356); */
 }
+
+.bonus-c{
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+
+.bonus{
+    margin-left: 10px;
+    margin-top: 380px;
+    line-height: 50px;
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.bonus * {
+    display: inline;
+}
+
+.bonus i {
+    margin-right: 4px;
+}
+
+.fa-check{
+    color: #79BA81 ;
+}
+
+.fa-times{
+    color: #D85878 ;
+}
