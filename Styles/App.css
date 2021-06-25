@@ -43,7 +43,6 @@ body{
     background-color: #D8D9E2 ;
     border-radius: 5px;
     overflow-y: scroll;
-    overflow-x: scroll;
 }
 
 .prod2{
@@ -97,7 +96,7 @@ body{
     border: 0px solid red;
     max-width: 90%;
     font-family: 'Nunito' !important;   
-    overflow-y: scroll;
+
 }
 
 .lite p {
